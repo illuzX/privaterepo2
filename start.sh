@@ -8,5 +8,5 @@ else
 fi
 cd /app
 pip3 install -U -r requirements.txt
-echo "AtwFilt bot runing...."
+echo "Status Online...."
 python3 main.py
