@@ -245,7 +245,7 @@ async def cb_handler(client: illuzX, query):
                  InlineKeyboardButton("sᴇᴀʀᴄʜ 🔎" ,switch_inline_query_current_chat='')
                 ], [
                  InlineKeyboardButton("🔰ᴏᴛᴛ ᴜᴘᴅᴀᴛᴇs🔰", url="https://t.me/MalayalamOTTUpdatesMvb"),
-                 InlineKeyboardButton(️"🛠️ʜᴇʟᴘ", callback_data="help")
+                 InlineKeyboardButton("Help", callback_data="help")
                 ], [
                  InlineKeyboardButton("ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ🎬", url="https://t.me/mvbzzer")
                  ]]
