@@ -55,7 +55,7 @@ async def help(bot, message):
      ]]
     await message.reply_photo(
         photo = choice(BOT_PICS),
-        caption=AtwFilt.HELP_MSG.format(mention=message.from_user.mention),
+        caption=AtwFilt.HELP_MSG.format(mention=message.from_user.mention,bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME),
         reply_markup=InlineKeyboardMarkup(button))
       
 @illuzX.on_message(Worker.private & Worker.command(["about"]))
