@@ -36,7 +36,7 @@ async def cb_handler(client: illuzX, query):
                     ]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -75,7 +75,7 @@ async def cb_handler(client: illuzX, query):
                     ]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)}/{data['total']}", callback_data="pages"),]
                 )
                 await query.edit_message_reply_markup( 
                     reply_markup=InlineKeyboardMarkup(buttons)
@@ -89,7 +89,7 @@ async def cb_handler(client: illuzX, query):
                     ]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)}/{data['total']}", callback_data="pages"),]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -116,7 +116,7 @@ async def cb_handler(client: illuzX, query):
                     ]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -131,7 +131,7 @@ async def cb_handler(client: illuzX, query):
                     ]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -155,7 +155,7 @@ async def cb_handler(client: illuzX, query):
                     ]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)}/{data['total']}", callback_data="pages"),]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -166,7 +166,7 @@ async def cb_handler(client: illuzX, query):
                 buttons = data['buttons'][int(index)-1].copy()
                 
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)}/{data['total']}", callback_data="pages"),]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -262,7 +262,7 @@ async def cb_handler(client: illuzX, query):
 
         elif query.data == "help":
             buttons = [[
-              InlineKeyboardButton("source code ", callback_data="SOURCE_CODE"),
+              InlineKeyboardButton("DISCLAIMER ", callback_data="Disclaimer"),
               InlineKeyboardButton("About 😎", callback_data="about")
               ]]               
             await query.message.edit(text=AtwFilt.HELP_MSG.format(mention=query.from_user.mention,bot_name=bot_info.BOT_NAME, bot_username=bot_info.BOT_USERNAME), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=False)
@@ -279,16 +279,16 @@ async def cb_handler(client: illuzX, query):
 
         elif query.data == "bot_owner":
             buttons = [[
-             InlineKeyboardButton('source code', callback_data="SOURCE_CODE"),
+             InlineKeyboardButton('DISCLAIMER', callback_data="Disclaimer"),
              InlineKeyboardButton('About 😎', callback_data="about")
              ]]               
             await query.message.edit(text=AtwFilt. illuzX.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
-        elif query.data == "SOURCE_CODE":
+        elif query.data == "Disclaimer":
             buttons = [[
              InlineKeyboardButton('BACK', callback_data="start"),
              InlineKeyboardButton('About 😎', callback_data="about")
              ]]
-            await query.message.edit(text=AtwFilt.SOURCE_CODE.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=False)
+            await query.message.edit(text=AtwFilt.DISCLAIMER.format(mention=query.from_user.mention), reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=False)
             
         elif query.data == "pages":
             await query.answer()
