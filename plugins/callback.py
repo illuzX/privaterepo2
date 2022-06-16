@@ -36,7 +36,7 @@ async def cb_handler(client: illuzX, query):
                     ]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"📃 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
+                    [InlineKeyboardButton(f"🎬 Pages {int(index)+2}/{data['total']}", callback_data="pages"),]
                 )
 
                 await query.edit_message_reply_markup( 
