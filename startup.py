@@ -20,13 +20,20 @@ Iam [{bot_name}](t.me/{bot_username}) 𝙾𝚛 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚌�
 [𝐈𝐥𝐥𝐮𝐳𝐗](t.me/Grayhathacker767)"""
 
     ABOUT_MSG = """
-𝐀𝐁𝐎𝐔𝐓 𝐌𝐄✏️
-
-©️𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : [𝐈𝐥𝐥𝐮𝐳𝕏](t.me/mvbbotz)\n
-🧾𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : [𝐏𝐲𝐭𝐡𝐨𝐧 𝟑.𝟗.𝟏𝟎](https://www.python.org/)\n
-⌛𝐋𝐢𝐛𝐫𝐚𝐫𝐲 : [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝟏.𝟒.𝟏𝟐](https://docs.pyrogram.org/)\n
-⚠️𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐔𝐳𝕏_𝐁𝐨𝐭𝐬](https://t.me/UZX_BOTS)\n
-⭐ 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞:[𝐌𝐎𝐍𝐆𝐎𝔻𝔹](https://mongodb.com)\n
+---------🔴𝐀𝐁𝐎𝐔𝐓 𝐌𝐄🟢--------------
+|
+|○👨‍💻𝐂𝐫𝐞𝐚𝐭𝐨𝐫 : [𝐈𝐥𝐥𝐮𝐳𝕏](t.me/mvbbotz)
+|
+|○📚𝐋𝐚𝐧𝐠𝐮𝐚𝐠𝐞 : [𝐏𝐲𝐭𝐡𝐨𝐧 𝟑.𝟗.𝟏𝟎](https://www.python.org/)
+|
+|○🔧𝐅𝐫𝐚𝐦𝐞𝐰𝐨𝐫𝐤 : [𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 𝟏.𝟒.𝟏𝟐](https://docs.pyrogram.org/)
+|
+|○⚠️𝐂𝐡𝐚𝐧𝐧𝐞𝐥 : [𝐔𝐳𝕏_𝐁𝐨𝐭𝐬](https://t.me/UZX_BOTS)     
+|
+|○⭐ 𝐃𝐚𝐭𝐚𝐁𝐚𝐬𝐞:[𝐌𝐎𝐍𝐆𝐎𝔻𝔹](https://mongodb.com)
+|
+|○💡𝐒𝐨𝐮𝐫𝐜𝐞𝐂𝐨𝐝𝐞: [𝐋𝐢𝐧𝐤](https://www.github.com/illuzX/AtwFilt)
+|____
 
 
 """
