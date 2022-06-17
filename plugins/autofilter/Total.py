@@ -15,9 +15,7 @@ async def total(b, m):
  quote=True)
     try:
         total = await Media.count_documents()
-        disk_usage = psutil.disk_usage('/').percent
-        await msg.edit(f"""                 ★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂{total}
-          ★ 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴{used}({disk_usage}%)""")
+        await msg.edit(f"""                 ★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂{total}"""
     except Exception as e:
         logger.exception('Failed to check total files')
         await msg.edit(f'Error: {e}')
