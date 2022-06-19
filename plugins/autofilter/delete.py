@@ -6,7 +6,7 @@ from config import ADMINS
 logger = logging.getLogger(__name__)
 
 
-@illuzX.on_message(Worker.command('delete') & Worker.user(ADMINS))
+@illuzX.on_message(Worker.command('rm') & Worker.user(ADMINS))
 async def delete(bot, message):
 
     reply = message.reply_to_message
